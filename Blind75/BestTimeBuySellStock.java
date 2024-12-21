@@ -32,7 +32,7 @@ public class BestTimeBuySellStock {
         return profit;
         */
 
-        // two Pointer
+        // Two Pointer
         int profit=0, left=0, right=1;
         while(right<prices.length){
             if(prices[left]<prices[right]){
