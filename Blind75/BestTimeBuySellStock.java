@@ -23,7 +23,7 @@ public class BestTimeBuySellStock {
         */
     
         /*
-        // DP Approach
+        // DP Approach with T.C=O(n) & S.C=O(1)
         int profit=0, min_day=prices[0];
         for(int i=1;i<prices.length;i++){
             min_day=Math.min(min_day, prices[i]);
